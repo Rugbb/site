@@ -1,0 +1,70 @@
+header{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    align-items: center;
+}
+
+header nav ul{
+    list-style: none;
+    padding: 0;    
+}
+
+header nav li{
+    display: inline;
+    margin-right: 20px;
+    
+    
+}
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header a:hover{
+    color: rgb(119, 116, 116);
+}
+
+.container {
+    display: flex;
+  }
+  
+.coluna {
+    flex: 1; /* Isso fará com que as seções tenham largura igual */
+    padding: 20px;
+    text-align: center;
+  }
+
+  .elemento {
+    width: 33.33%; /* Define a largura para que eles ocupem um terço da largura do contêiner */
+    float: left; /* Alinhar elementos à esquerda */
+    box-sizing: border-box; /* Inclui borda e preenchimento na largura total */
+    border: 1px solid #ccc; /* Apenas para visualização */
+    padding: 10px; /* Adiciona preenchimento interno */
+    list-style: none;
+  }
+  
+  .cont {
+    display: flex; /* Use display: flex para criar um layout de duas colunas */
+    align-items: center; /* Alinhe verticalmente os elementos */
+    margin-bottom: 20px; /* Adicione espaço entre os elementos <aside> */
+    margin-right:40px;
+  }
+
+
+  .imagem {
+    flex: 1; /* A primeira coluna (imagem) ocupa 50% da largura */
+    margin-right: 200px; /* Adicione espaço entre a imagem e o texto */
+    text-align: right;
+  }
+  
+  .imagem img {
+    max-width: 100%; /* Certifique-se de que a imagem não ultrapasse a largura da coluna */
+    height: auto; /* Mantenha a proporção da imagem */
+    
+  }
+  
+  .conteudo {
+    flex: 1; /* A segunda coluna (conteúdo) ocupa 50% da largura */
+  }
+  
